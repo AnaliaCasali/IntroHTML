@@ -6,6 +6,29 @@
     <title>Contacto</title>
 </head>
 <body>
-    
+    <header>
+        <h1>
+            Web de Contacto
+        </h1>
+        <nav>
+                <ol id="lista">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                    <li><a href="acercaDe.html">Acerca De</a></li>
+                </ol>
+        </nav>
+    </header>
+    <main>
+        <section> <!-- metodos: GET / POST   --->
+            <form action="index.html" method="GET">
+                <label>Usuario</label>
+                <input type="text" name="txtNombre" required placeholder="Nombre de Usuario">
+                <label>Contraseña</label>
+                <input type="password" name="txtContraseña" required>    
+                <input type="submit" name="btnEnviar" value="Enviar">
+                
+            </form>
+        </section>
+    </main>
 </body>
 </html>
